@@ -1,0 +1,65 @@
+.HeaderImageDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.HeaderImage {
+  padding: 10px 0;
+}
+
+.HeaderUserAccounts {
+  margin-right: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.HeaderUserAccountsLoggedIn {
+  margin-right: 2%;
+}
+.MainCard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 15px;
+}
+.CardImage {
+  max-height: 150px;
+  width: auto !important;
+  align-self: center;
+}
+
+.FormRowGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ListGroup {
+  max-height: 165px;
+  overflow-y: auto;
+}
+
+.ListGroupItem {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ListPlayer {
+  width: fit-content;
+  align-self: center;
+}
+.ListPlayer456 {
+  color: #ec902f;
+}
+
+.RemoveUserButton {
+}
+
+.ListPlayerButton {
+  justify-self: flex-end;
+}
+
+.LogoutModalContainer {
+  border: 0px !important;
+}
